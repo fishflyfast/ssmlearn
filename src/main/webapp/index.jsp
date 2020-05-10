@@ -12,6 +12,9 @@
 </head>
 <body>
     <h3>入门程序</h3>
-    <a href="hello">入门</a>
+    <!-- 类上加注解 注意这里user前面不能写/,否则会认为这是根路径-->
+    <a href="user/requestMapping">类上加注解</a>
+    <br>
+    <a href="user/params?username=zhkm">params测试</a>
 </body>
 </html>
