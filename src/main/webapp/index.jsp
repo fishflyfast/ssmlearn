@@ -9,39 +9,36 @@
 <html>
 <head>
     <title>Title</title>
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+        //页面加载，绑定单击事件
+        $(function(){
+            $("#btn").click(function () {
+                alert("click btn");
+            });
+        });
+
+    </script>
 </head>
 <body>
-    <h3>1.RequestParam</h3>
-    <a href="anno/testRequestParam?uname=heheh">入门</a>
+    <h3>1.testString</h3>
+    <a href="testString">testString</a>
     <BR>
 
-    <h3>2.RequestBody</h3>
-    <form action="anno/testRequestBody" method="post">
-        用户姓名:<input type="text" name="uname">
-        用户年龄:<input type="text" name="age">
-        <input type="submit" vlaue="submit">
-    </form>
+    <h3>2.testVoid</h3>
+    <a href="testVoid">testVoid</a>
     <BR>
 
-    <h3>4.testRequestHeader</h3>
-    <a href="anno/testRequestHeader">testRequestHeader</a>
+    <h3>3.testModelAndView</h3>
+    <a href="testModelAndView">testModelAndView</a>
     <BR>
 
-    <h3>5.testCookieValue</h3>
-    <a href="anno/testCookieValue">testCookieValue</a>
+    <h3>4.testForwordRedirect</h3>
+    <a href="testForwordRedirect">testForwordRedirect</a>
     <BR>
 
-    <h3>6.1 setAttribute</h3>
-    <a href="anno/setAttribute">setAttribute</a>
-    <BR>
-
-    <h3>6.2 getAttribute</h3>
-    <a href="anno/getAttribute">getAttribute</a>
-    <BR>
-
-    <h3>6.3 delAttribute</h3>
-    <a href="anno/delAttribute">delAttribute</a>
-    <BR>
+    <button id="btn">发送ajax请求</button>
 
 </body>
 </html>

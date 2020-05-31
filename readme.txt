@@ -1,10 +1,9 @@
 bilibili地址：https://www.bilibili.com/video/BV1J7411Z7QA
 
-各种注解的应用
-1.RequestParam
-2.RequestBody
-3.PathVaribale
-4.了解下HiddenHttpMethodFilter
-5.RequestHeader
-6.ModelAttribute
-7.SessionAttributes
+SpringMVC响应值
+1.返回值为String
+2.返回值为void
+3.返回ModelAndView
+4.使用关键字进行请求转发或重定向
+5.响应json数据
+5.1静态资源处理，配置前端控制器不拦截静态资源
