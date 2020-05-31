@@ -1,11 +1,13 @@
-package name.zkm.controller.name.zkm.model;
+package name.zkm.model;
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class User implements Serializable {
 
     private String uname;
     private Integer age;
+    private Date birthday;
 
     public String getUname() {
         return uname;
@@ -23,11 +25,20 @@ public class User implements Serializable {
         this.age = age;
     }
 
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "uname='" + uname + '\'' +
                 ", age=" + age +
+                ", birthiday=" + birthday +
                 '}';
     }
 }

@@ -1,4 +1,4 @@
-package name.zkm.controller.name.zkm.model;
+package name.zkm.model;
 
 import java.io.Serializable;
 
