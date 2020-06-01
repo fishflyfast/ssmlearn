@@ -15,7 +15,19 @@
         //页面加载，绑定单击事件
         $(function(){
             $("#btn").click(function () {
-                alert("click btn");
+                $.ajax({
+                    //url : 'testAjax',
+                    url : 'testAjax1',
+                    contentType : 'application/json;charset=UTf-8',
+                    data : '{"uname" : "zkm", "age" : 34}',
+                    dataType : 'json',
+                    type : 'post',
+                    success : function (data) {
+                        //data是服务器端响应的数据
+                        alert(data);
+                        alert(data.uname);
+                    }
+                })
             });
         });
 
