@@ -1,7 +1,7 @@
 bilibili地址：https://www.bilibili.com/video/BV1J7411Z7QA
 
-SpringMVC文件上传
-1.传统方式上传文件
-2.SpringMVC方式上传文件
-3.分服务器上传文件（未写代码）
+SpringMVC异常处理
+1.编写自定义异常类
+2.编写异常处理器
+3.配置异常处理器
 

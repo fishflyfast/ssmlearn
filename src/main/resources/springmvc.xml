@@ -22,10 +22,7 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <!-- 配置文件解析器 -->
-    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <property name="maxUploadSize" value="655360"></property>
-    </bean>
+    <bean id = "sysExceptionResolver" class="name.zkm.exception.SysExceptionResolver"></bean>
     <!-- 开启SpringMVC框架注解的支持-->
     <mvc:annotation-driven/>
 </beans>
