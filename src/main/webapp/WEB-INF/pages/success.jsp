@@ -12,6 +12,6 @@
 </head>
 <body>
     <h3>请求成功了</h3>
-
+    <%System.out.println("this success.jsp");%>
 </body>
 </html>

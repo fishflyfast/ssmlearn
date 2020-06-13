@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping("/inter")
 public class TestInterceptorController {
     /**
-     * 处理异常
+     * 拦截器测试
      * @return
      */
     @RequestMapping(value = "/testInterceptor")
