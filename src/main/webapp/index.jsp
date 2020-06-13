@@ -11,7 +11,7 @@
     <title>异常处理</title>
 </head>
 <body>
-    <a href="exception/testException">异常</a>
+    <a href="inter/testInterceptor">拦截器</a>
 
 
 </body>

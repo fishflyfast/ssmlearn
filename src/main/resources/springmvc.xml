@@ -22,7 +22,12 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <bean id = "sysExceptionResolver" class="name.zkm.exception.SysExceptionResolver"></bean>
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/inter/**"/>
+            <bean class="name.zkm.interceptor.ZkmInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
     <!-- 开启SpringMVC框架注解的支持-->
     <mvc:annotation-driven/>
 </beans>

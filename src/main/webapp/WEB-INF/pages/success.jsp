@@ -13,7 +13,5 @@
 <body>
     <h3>请求成功了</h3>
 
-    ${user.age}
-    ${user.uname}
 </body>
 </html>
